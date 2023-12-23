@@ -1,0 +1,173 @@
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+            background-image: url('../img/background2.png'); 
+            background-size:100vh;
+            background-position: center; 
+            background-repeat: no-repeat; 
+           
+            
+
+}
+.container{
+    justify-content: space-between;
+}
+.follow-us a {
+    background-color: #f44a09;
+    padding: 5px;
+    padding-top:0;
+    padding-bottom:0;
+    border-radius: 50%;
+    color: white;
+    font-size: 17px;
+}
+.follow-us a .twitter{
+    font-size:15px;
+}
+.landing{
+    position: relative;
+    height: 1000px;;
+}
+.landing .landing-title{
+    position: absolute;
+    top: 30%;
+    left: 31%;
+    text-align: end;   
+}
+ .landing .landing-title .text-one{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight:200;
+    color:#444444;
+ }
+ .landing .landing-title .text-tow{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight:200;
+    color:#444444;
+ }
+ .landing .landing-title .text-three{
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color:#444444;
+ }
+ .landing .landing-title .text-fure{
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color:#444444;
+ }
+ .landing .landing-title .text-five{
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    color:#444444;
+ }
+ .services{
+    position: relative;
+ }
+ .services .srv-card{
+    position: absolute;
+    background-color: #f44a09;
+    bottom: 249px;
+    left: 60%;
+    padding: 15px;
+    padding-right: 35px;
+    border-radius: 15px;    
+    box-shadow: 0 8px 8px -4px rgb(60, 64, 65);
+ }
+ .services .srv-card h2{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    font-size: 20px;
+    margin: 0;
+    
+ }
+ .services .srv-card h3{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    
+ }
+ .services .srv-card p{
+    color:white;
+    font-weight:700;
+ }
+ .foter{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: relative;
+    top: -80px;
+    left: 10%;
+ }
+.foter .title-foter{
+    text-align: center;
+    position: relative;
+    top: -112px;
+    left: 150px;
+}
+.foter .title-foter h5{
+margin:0;
+padding:0;
+color:#444444;
+font-family: 'Montserrat';
+font-weight: 700;
+}
+.foter .title-foter h2{
+    color:#f44a09;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    
+}
+
+.foter .btn{
+    background: #f44a09;
+    border-radius: 20px;
+    width: 13%;
+    margin-right: 100px;
+     
+}
+.foter .btn:hover{
+    background:rgb(60, 60, 187);
+}
+.foter .btn i{
+ color:white;
+ font-size:20px
+}
+
+.foter .btn a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.foter .contact .btn-style{
+   background-color:#f44a09 ;
+}
+.foter .contact h2{
+    margin:0;
+    padding:0;
+    color:#f44a09;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: -20px;
+}
+.foter .contact h3{
+    color:#444444;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: -50px;
+}
